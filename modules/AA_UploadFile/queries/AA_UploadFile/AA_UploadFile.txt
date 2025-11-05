@@ -1,0 +1,8 @@
+{
+  "file": "{{inputs.file.data }}",
+  "metadata": {},
+  "file_type": "{{inputs.fileType}}",
+  "force": true,
+  "is_quick_upload": true,
+  "project_id": "{{inputs.projectId}}_{{inputs.chatId}}"
+}

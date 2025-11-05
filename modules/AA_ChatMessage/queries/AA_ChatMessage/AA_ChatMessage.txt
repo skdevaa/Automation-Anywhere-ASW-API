@@ -1,0 +1,6 @@
+{
+  "message" : "{{inputs.message}}",
+  "project_id" : "{{inputs.projectId}}",
+  "chat_id" : "{{inputs.chatId}}"
+ 
+}

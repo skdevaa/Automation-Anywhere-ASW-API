@@ -1,0 +1,86 @@
+{
+  "gitSyncId": "68f7baaa76976230880d71a4_8ef56b6a-def1-425c-b93f-126609593f93",
+  "moduleUUID": "a07979fa-2060-4a62-9a53-310b5744a188",
+  "type": "JS_MODULE",
+  "unpublishedModule": {
+    "inputsForm": [
+      {
+        "children": [
+          {
+            "controlType": "INPUT_TEXT",
+            "defaultValue": "[]",
+            "id": "kwjmkifxck",
+            "label": "setProjectId",
+            "propertyName": "inputs.setProjectId"
+          },
+          {
+            "controlType": "INPUT_TEXT",
+            "defaultValue": "[]",
+            "id": "ncxkntvrud",
+            "label": "getProjectId",
+            "propertyName": "inputs.getProjectId"
+          },
+          {
+            "controlType": "INPUT_TEXT",
+            "defaultValue": "[]",
+            "id": "ztpiepjhvq",
+            "label": "setAgentId",
+            "propertyName": "inputs.setAgentId"
+          },
+          {
+            "controlType": "INPUT_TEXT",
+            "defaultValue": "[]",
+            "id": "gxbpkedobf",
+            "label": "getAgentId",
+            "propertyName": "inputs.getAgentId"
+          },
+          {
+            "controlType": "INPUT_TEXT",
+            "defaultValue": "[]",
+            "id": "fuhsfjacis",
+            "label": "createChat",
+            "propertyName": "inputs.createChat"
+          },
+          {
+            "controlType": "INPUT_TEXT",
+            "defaultValue": "[]",
+            "id": "lnbvhfbbky",
+            "label": "deleteChat",
+            "propertyName": "inputs.deleteChat"
+          },
+          {
+            "controlType": "INPUT_TEXT",
+            "defaultValue": "[]",
+            "id": "utnjwiqlkg",
+            "label": "uploadFile",
+            "propertyName": "inputs.uploadFile"
+          },
+          {
+            "controlType": "INPUT_TEXT",
+            "defaultValue": "[]",
+            "id": "cucqaxldps",
+            "label": "setAuthHeaders",
+            "propertyName": "inputs.setAuthHeaders"
+          },
+          {
+            "controlType": "INPUT_TEXT",
+            "defaultValue": "[]",
+            "id": "vgdwzqxppa",
+            "label": "sendMessageChat",
+            "propertyName": "inputs.sendMessageChat"
+          },
+          {
+            "controlType": "INPUT_TEXT",
+            "defaultValue": "[]",
+            "id": "uapjdfamdz",
+            "label": "getAgents",
+            "propertyName": "inputs.getAgents"
+          }
+        ],
+        "id": "ztqisdtepy",
+        "sectionName": ""
+      }
+    ],
+    "name": "AA_API_EntKB_Object"
+  }
+}

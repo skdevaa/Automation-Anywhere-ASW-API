@@ -1,0 +1,5 @@
+{
+        "username": "{{inputs.user}}",
+        "apiKey": "{{inputs.apiKey}}"
+    
+}

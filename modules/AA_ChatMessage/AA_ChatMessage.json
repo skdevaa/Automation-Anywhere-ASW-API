@@ -1,0 +1,51 @@
+{
+  "gitSyncId": "68f7baaa76976230880d71a4_ef58b9b3-0a31-4f74-9fe7-aefcd55c7366",
+  "moduleUUID": "ca03190d-b3bf-4443-8d4b-1770e23a1654",
+  "type": "QUERY_MODULE",
+  "unpublishedModule": {
+    "inputsForm": [
+      {
+        "children": [
+          {
+            "controlType": "INPUT_TEXT",
+            "defaultValue": "",
+            "id": "xgzlcubszu",
+            "label": "chatId",
+            "propertyName": "inputs.chatId"
+          },
+          {
+            "controlType": "INPUT_TEXT",
+            "defaultValue": "",
+            "id": "ubbxgxjkuy",
+            "label": "message",
+            "propertyName": "inputs.message"
+          },
+          {
+            "controlType": "INPUT_TEXT",
+            "defaultValue": "",
+            "id": "nrsuazzncs",
+            "label": "projectId",
+            "propertyName": "inputs.projectId"
+          },
+          {
+            "controlType": "INPUT_TEXT",
+            "defaultValue": "",
+            "id": "gubfoksybs",
+            "label": "apiKey",
+            "propertyName": "inputs.apiKey"
+          },
+          {
+            "controlType": "INPUT_TEXT",
+            "defaultValue": "",
+            "id": "yaqyfwenkv",
+            "label": "secret",
+            "propertyName": "inputs.secret"
+          }
+        ],
+        "id": "bbedjbcykr",
+        "sectionName": ""
+      }
+    ],
+    "name": "AA_ChatMessage"
+  }
+}

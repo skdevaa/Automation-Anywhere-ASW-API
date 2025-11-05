@@ -1,0 +1,51 @@
+{
+  "gitSyncId": "68f72f0c76976230880d2c29_b6771379-5dd7-4189-9077-a88b3a50c09d",
+  "moduleUUID": "8ac73c6b-f49a-4aea-9835-de5859863fa8",
+  "type": "QUERY_MODULE",
+  "unpublishedModule": {
+    "inputsForm": [
+      {
+        "children": [
+          {
+            "controlType": "INPUT_TEXT",
+            "defaultValue": "",
+            "id": "ywxrfymlzr",
+            "label": "automationName",
+            "propertyName": "inputs.automationName"
+          },
+          {
+            "controlType": "INPUT_TEXT",
+            "defaultValue": "",
+            "id": "etevspflqu",
+            "label": "botId",
+            "propertyName": "inputs.botId"
+          },
+          {
+            "controlType": "INPUT_TEXT",
+            "defaultValue": "",
+            "id": "ldzgmvhlvg",
+            "label": "botInputJSON",
+            "propertyName": "inputs.botInputJSON"
+          },
+          {
+            "controlType": "INPUT_TEXT",
+            "defaultValue": "",
+            "id": "moruoufaxr",
+            "label": "token",
+            "propertyName": "inputs.token"
+          },
+          {
+            "controlType": "INPUT_TEXT",
+            "defaultValue": "",
+            "id": "udkxgjgksr",
+            "label": "runnerId",
+            "propertyName": "inputs.runnerId"
+          }
+        ],
+        "id": "wqieatugqy",
+        "sectionName": ""
+      }
+    ],
+    "name": "AA_DeployHeadlessAutomation"
+  }
+}

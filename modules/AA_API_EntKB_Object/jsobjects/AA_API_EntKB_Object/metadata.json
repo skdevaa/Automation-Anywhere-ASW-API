@@ -1,0 +1,18 @@
+{
+  "gitSyncId": "68fcc65a76976230880df57b_ae051e32-a424-40d8-8835-5ea24b7c52de",
+  "id": "AA_API_EntKB_Object_AA_API_EntKB_Object",
+  "isPublic": true,
+  "unpublishedCollection": {
+    "contextType": "MODULE",
+    "moduleId": "AA_API_EntKB_Object",
+    "name": "AA_API_EntKB_Object",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "config",
+        "value": "{\n  apikey: \"\",\n  secret: \"\",\n  projectid: \"\",\n  agentId: \"\",\n  chatId: \"\"\n}"
+      }
+    ]
+  }
+}

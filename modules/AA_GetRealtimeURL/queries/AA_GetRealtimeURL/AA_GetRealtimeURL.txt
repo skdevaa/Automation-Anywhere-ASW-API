@@ -1,0 +1,5 @@
+{
+  "botRepositoryPath": [
+    {{inputs.repositoryPath}}
+  ]
+}

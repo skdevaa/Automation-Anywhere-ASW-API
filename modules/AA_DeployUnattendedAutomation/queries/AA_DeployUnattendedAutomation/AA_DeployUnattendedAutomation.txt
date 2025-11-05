@@ -1,0 +1,16 @@
+
+{
+	"automationName": "{{inputs.automationName}}",
+	"botId": "{{inputs.botId}}",
+	"automationPriority": "{{inputs.automationPriority}}",
+	"hideBotAgentUi": true,
+	"unattendedRequest": {
+	  "runAsUserIds":{{inputs.runnerId !== "" ? [Number(inputs.runnerId)] : []}},
+    "poolIds":{{inputs.devicePoolId !== "" ? [Number(inputs.devicePoolId)] : []}},
+	  "deviceUsageType": "{{inputs.deviceUsageType}}"
+  },
+
+  "botInput": 
+  {{JSON.parse(inputs.botInputJSON)}}
+
+}

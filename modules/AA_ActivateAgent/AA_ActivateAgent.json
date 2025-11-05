@@ -1,0 +1,51 @@
+{
+  "gitSyncId": "68f7baaa76976230880d71a4_6f4e9fbe-5761-4e29-955a-85e8cec77c09",
+  "moduleUUID": "f8b7e5ee-968d-4d90-ac22-6ded95b49393",
+  "type": "QUERY_MODULE",
+  "unpublishedModule": {
+    "inputsForm": [
+      {
+        "children": [
+          {
+            "controlType": "INPUT_TEXT",
+            "defaultValue": "",
+            "id": "gyxhvuwxgb",
+            "label": "chatId",
+            "propertyName": "inputs.chatId"
+          },
+          {
+            "controlType": "INPUT_TEXT",
+            "defaultValue": "",
+            "id": "qfsyfceqpy",
+            "label": "projectId",
+            "propertyName": "inputs.projectId"
+          },
+          {
+            "controlType": "INPUT_TEXT",
+            "defaultValue": "",
+            "id": "ttcgfbherw",
+            "label": "agentId",
+            "propertyName": "inputs.agentId"
+          },
+          {
+            "controlType": "INPUT_TEXT",
+            "defaultValue": "",
+            "id": "ughfoujuym",
+            "label": "apiKey",
+            "propertyName": "inputs.apiKey"
+          },
+          {
+            "controlType": "INPUT_TEXT",
+            "defaultValue": "",
+            "id": "hxvhfpjqwe",
+            "label": "secret",
+            "propertyName": "inputs.secret"
+          }
+        ],
+        "id": "fqnsbhablc",
+        "sectionName": ""
+      }
+    ],
+    "name": "AA_ActivateAgent"
+  }
+}

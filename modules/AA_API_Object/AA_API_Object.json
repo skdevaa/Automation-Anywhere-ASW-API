@@ -1,0 +1,114 @@
+{
+  "gitSyncId": "68f72f0c76976230880d2c29_90a042b5-2e0f-4796-9192-11b6acb71871",
+  "moduleUUID": "47529c53-6b38-4f12-87fd-973201ea5726",
+  "type": "JS_MODULE",
+  "unpublishedModule": {
+    "inputsForm": [
+      {
+        "children": [
+          {
+            "controlType": "INPUT_TEXT",
+            "defaultValue": "[]",
+            "id": "oekyzwvofi",
+            "label": "getDeploymentStatus",
+            "propertyName": "inputs.getDeploymentStatus"
+          },
+          {
+            "controlType": "INPUT_TEXT",
+            "defaultValue": "[]",
+            "id": "whgoapnyqd",
+            "label": "getExecutionId",
+            "propertyName": "inputs.getExecutionId"
+          },
+          {
+            "controlType": "INPUT_TEXT",
+            "defaultValue": "[]",
+            "id": "oxwjkfomgk",
+            "label": "getRunnerId",
+            "propertyName": "inputs.getRunnerId"
+          },
+          {
+            "controlType": "INPUT_TEXT",
+            "defaultValue": "[]",
+            "id": "qfkkrhatmb",
+            "label": "setToken",
+            "propertyName": "inputs.setToken"
+          },
+          {
+            "controlType": "INPUT_TEXT",
+            "defaultValue": "[]",
+            "id": "pezwwfqohv",
+            "label": "getToken",
+            "propertyName": "inputs.getToken"
+          },
+          {
+            "controlType": "INPUT_TEXT",
+            "defaultValue": "[]",
+            "id": "rnbsjjhzcj",
+            "label": "getExecutionOutput",
+            "propertyName": "inputs.getExecutionOutput"
+          },
+          {
+            "controlType": "INPUT_TEXT",
+            "defaultValue": "[]",
+            "id": "cfszgmjklc",
+            "label": "getDeploymentId",
+            "propertyName": "inputs.getDeploymentId"
+          },
+          {
+            "controlType": "INPUT_TEXT",
+            "defaultValue": "[]",
+            "id": "qoitljxanf",
+            "label": "convertDictionaryToJSON",
+            "propertyName": "inputs.convertDictionaryToJSON"
+          },
+          {
+            "controlType": "INPUT_TEXT",
+            "defaultValue": "[]",
+            "id": "ewcaiwgpnu",
+            "label": "executeAutomationRealtime",
+            "propertyName": "inputs.executeAutomationRealtime"
+          },
+          {
+            "controlType": "INPUT_TEXT",
+            "defaultValue": "[]",
+            "id": "mtxklqdzcm",
+            "label": "setRunnerId",
+            "propertyName": "inputs.setRunnerId"
+          },
+          {
+            "controlType": "INPUT_TEXT",
+            "defaultValue": "[]",
+            "id": "lmykhqfqwi",
+            "label": "executeAutomationUnattended",
+            "propertyName": "inputs.executeAutomationUnattended"
+          },
+          {
+            "controlType": "INPUT_TEXT",
+            "defaultValue": "[]",
+            "id": "mndfnbmmev",
+            "label": "executeAutomationHeadless",
+            "propertyName": "inputs.executeAutomationHeadless"
+          },
+          {
+            "controlType": "INPUT_TEXT",
+            "defaultValue": "[]",
+            "id": "igelemocwn",
+            "label": "convertTableToJSON",
+            "propertyName": "inputs.convertTableToJSON"
+          },
+          {
+            "controlType": "INPUT_TEXT",
+            "defaultValue": "[]",
+            "id": "yipxtpvjbm",
+            "label": "getRealtimeExecutionOutput",
+            "propertyName": "inputs.getRealtimeExecutionOutput"
+          }
+        ],
+        "id": "wwawxndskm",
+        "sectionName": ""
+      }
+    ],
+    "name": "AA_API_Object"
+  }
+}

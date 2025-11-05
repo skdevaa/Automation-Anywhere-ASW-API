@@ -1,0 +1,12 @@
+{ 
+  "filter": {
+		"operator": "and",
+		"operands": [
+			{
+				"operator": "eq",
+				"field": "automationType",
+				"value": "PROCESS"
+			}
+		]
+  }
+}

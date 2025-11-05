@@ -1,0 +1,6 @@
+{
+  "chat_id" : "{{inputs.chatId}}",
+  "project_id" : "{{inputs.projectId}}",
+  "agent_id" : "{{inputs.agentId}}"
+
+}

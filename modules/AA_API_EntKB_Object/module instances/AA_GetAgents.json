@@ -1,0 +1,40 @@
+{
+  "gitSyncId": "68f7baaa76976230880d71a4_14bc54e3-661d-458e-ba7f-04280012c7b7",
+  "id": "AA_API_EntKB_Object_AA_GetAgents",
+  "moduleUUID": "37f4eaef-6ace-4cec-8cbd-fe928d7e2ee5",
+  "packageUUID": "6deb9cad-b67f-4f79-b7ed-1d334c387541",
+  "type": "QUERY_MODULE",
+  "unpublishedModuleInstance": {
+    "contextType": "MODULE",
+    "inputs": {
+      "apiKey": "",
+      "projectId": "",
+      "secret": ""
+    },
+    "moduleId": "AA_API_EntKB_Object",
+    "moduleInputs": {
+      "bcmuvdnbnw": {
+        "controlType": "INPUT_TEXT",
+        "defaultValue": "",
+        "id": "bcmuvdnbnw",
+        "label": "apiKey",
+        "propertyName": "inputs.apiKey"
+      },
+      "tjusuitrbo": {
+        "controlType": "INPUT_TEXT",
+        "defaultValue": "",
+        "id": "tjusuitrbo",
+        "label": "projectId",
+        "propertyName": "inputs.projectId"
+      },
+      "wrwleixucr": {
+        "controlType": "INPUT_TEXT",
+        "defaultValue": "",
+        "id": "wrwleixucr",
+        "label": "secret",
+        "propertyName": "inputs.secret"
+      }
+    },
+    "name": "AA_GetAgents"
+  }
+}

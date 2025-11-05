@@ -1,0 +1,5 @@
+{
+  "project_id": "{{inputs.projectId}}",
+  "chat_id": "{{inputs.chatId}}",
+  "is_test": "false"
+}

@@ -1,0 +1,14 @@
+
+{
+    "automationName": "{{inputs.automationName}}",
+    "botId": "{{inputs.botId}}",
+    "headlessRequest": {
+        "numberOfExecutions":1,
+        "queueOnSlotsExhaustion":false,
+        "sharedRunAsUserId":{{inputs.runnerId}}
+    },
+
+    "botInput": 
+        {{JSON.parse(inputs.botInputJSON)}}
+ 
+}

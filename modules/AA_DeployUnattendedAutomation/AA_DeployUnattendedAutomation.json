@@ -1,0 +1,72 @@
+{
+  "gitSyncId": "68f7baaa76976230880d71a4_1c93a0e4-507a-4b66-aa29-e9e201c05d4b",
+  "moduleUUID": "668ab973-967c-4ac3-9d80-85bf0109b51c",
+  "type": "QUERY_MODULE",
+  "unpublishedModule": {
+    "inputsForm": [
+      {
+        "children": [
+          {
+            "controlType": "INPUT_TEXT",
+            "defaultValue": "",
+            "id": "ltsjiqxrsa",
+            "label": "automationName",
+            "propertyName": "inputs.automationName"
+          },
+          {
+            "controlType": "INPUT_TEXT",
+            "defaultValue": "",
+            "id": "tgnfrehzxb",
+            "label": "botId",
+            "propertyName": "inputs.botId"
+          },
+          {
+            "controlType": "INPUT_TEXT",
+            "defaultValue": "",
+            "id": "cgkyoxjuxe",
+            "label": "botInputJSON",
+            "propertyName": "inputs.botInputJSON"
+          },
+          {
+            "controlType": "INPUT_TEXT",
+            "defaultValue": "",
+            "id": "ptdgbsvhvy",
+            "label": "runnerId",
+            "propertyName": "inputs.runnerId"
+          },
+          {
+            "controlType": "INPUT_TEXT",
+            "defaultValue": "",
+            "id": "tactztmemo",
+            "label": "automationPriority",
+            "propertyName": "inputs.automationPriority"
+          },
+          {
+            "controlType": "INPUT_TEXT",
+            "defaultValue": "",
+            "id": "uitwirgzof",
+            "label": "token",
+            "propertyName": "inputs.token"
+          },
+          {
+            "controlType": "INPUT_TEXT",
+            "defaultValue": "",
+            "id": "ogcmwmbusv",
+            "label": "devicePoolId",
+            "propertyName": "inputs.devicePoolId"
+          },
+          {
+            "controlType": "INPUT_TEXT",
+            "defaultValue": "",
+            "id": "bkvsdmpwht",
+            "label": "deviceUsageType",
+            "propertyName": "inputs.deviceUsageType"
+          }
+        ],
+        "id": "kxqcmxuokd",
+        "sectionName": ""
+      }
+    ],
+    "name": "AA_DeployUnattendedAutomation"
+  }
+}

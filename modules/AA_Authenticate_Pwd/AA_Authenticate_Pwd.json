@@ -1,0 +1,30 @@
+{
+  "gitSyncId": "68f7baaa76976230880d71a4_abe650f5-a688-47cf-ace9-825eb9aed897",
+  "moduleUUID": "aed59775-5efd-4c5b-b4f3-2bf6f9773049",
+  "type": "QUERY_MODULE",
+  "unpublishedModule": {
+    "inputsForm": [
+      {
+        "children": [
+          {
+            "controlType": "INPUT_TEXT",
+            "defaultValue": "",
+            "id": "wreankfdkf",
+            "label": "user",
+            "propertyName": "inputs.user"
+          },
+          {
+            "controlType": "INPUT_TEXT",
+            "defaultValue": "",
+            "id": "uxomkitypw",
+            "label": "password",
+            "propertyName": "inputs.password"
+          }
+        ],
+        "id": "btekxctwef",
+        "sectionName": ""
+      }
+    ],
+    "name": "AA_Authenticate_Pwd"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "gitSyncId": "68f72f0c76976230880d2c29_1ded3a7f-a640-42a6-8425-6bfe5784b1fb",
+  "moduleUUID": "b983ff7c-e64a-4494-a7f7-79d10d940e9b",
+  "type": "QUERY_MODULE",
+  "unpublishedModule": {
+    "inputsForm": [
+      {
+        "children": [
+          {
+            "controlType": "INPUT_TEXT",
+            "defaultValue": "",
+            "id": "klnggucbcf",
+            "label": "executionId",
+            "propertyName": "inputs.executionId"
+          },
+          {
+            "controlType": "INPUT_TEXT",
+            "defaultValue": "",
+            "id": "ecqhxmkbzl",
+            "label": "token",
+            "propertyName": "inputs.token"
+          }
+        ],
+        "id": "ftgugrirof",
+        "sectionName": ""
+      }
+    ],
+    "name": "AA_ExecutionStatus"
+  }
+}
