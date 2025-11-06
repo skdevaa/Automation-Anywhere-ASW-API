@@ -11,7 +11,7 @@
     "variables": [
       {
         "name": "config",
-        "value": "{\n  token: \"\",\n  username: {},\n  apikey: {},\n  runner: \"\"\n}"
+        "value": "{\n  token: \"\",\n  username: {},\n  apikey: {},\n  runner: \"\",\n  maxTries: 20,\n  pollUnattended: 5000,\n  pollHeadless: 1500\n}"
       }
     ]
   }

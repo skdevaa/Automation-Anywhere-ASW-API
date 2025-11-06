@@ -110,6 +110,13 @@
             "id": "rcjbyfvfpl",
             "label": "executeAutomation",
             "propertyName": "inputs.executeAutomation"
+          },
+          {
+            "controlType": "INPUT_TEXT",
+            "defaultValue": "[]",
+            "id": "ihagovfgfv",
+            "label": "setTimeout",
+            "propertyName": "inputs.setTimeout"
           }
         ],
         "id": "wwawxndskm",
