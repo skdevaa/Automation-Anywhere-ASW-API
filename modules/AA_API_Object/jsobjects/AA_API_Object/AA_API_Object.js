@@ -70,6 +70,46 @@ export default {
 			return obj;
 		}, {});
 	},
+	
+	
+	
+	/**
+   * Execute an automation in different modes.
+   *
+   * @param {string} automationName - Name of the automation to execute.
+   * @param {"headless"|"unattended"|"realtime"} type - Execution mode.
+   * @param {string} user - Username used for authentication.
+   * @param {string} apiKey - API key used for authentication.
+   * @param {string|number} runnerId - ID of the bit runner to use (unattended only).
+   * @param {string|number} botId - ID of the bot to run (headless/unattended).
+   * @param {string|number} [poolId] - Device pool ID (unattended only).
+   * @param {number} [priority=High] - Priority for unattended jobs.
+   * @param {Object|string|null} [botInputJSON] - Bot input payload; "" or null will be treated as {}.
+   * @param {string} [repositoryPath] - Repository path (realtime only).
+   * @returns {Promise<*>} Result of the execution, depending on type.
+   */
+	
+	 async executeAutomation(automationName,type, user, apiKey, runnerId,  botId, poolId, priority, botInputJSON,repositoryPath) {
+	  let botInput = (botInputJSON === "" || botInputJSON == null) ? {} : botInputJSON;
+		 switch (type) {
+			 case "headless":
+				 								this.setToken(user,apiKey);
+				 								this.setRunnerId(runnerId);
+				 								return await this.executeAutomationHeadless(automationName,botId,botInput);
+			case "unattended":
+				 								this.setToken(user,apiKey);
+				 								this.setRunnerId(runnerId);
+				 								return await this.executeAutomationUnattended(automationName, botId, poolId, botInputJSON,priority);
+			case "realtime":
+				 								this.setToken(user,apiKey);
+				 								this.setRunnerId(runnerId);
+				 								return await this.executeAutomationRealtime(repositoryPath,botInputJSON);
+			default:
+    										throw new Error("type not specified");
+				 
+		 }
+		 
+	 },
 
   async executeAutomationHeadless(automationName, botId, botInputJSON) {
     let response = await AA_DeployHeadlessAutomation.run({

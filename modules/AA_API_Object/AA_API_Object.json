@@ -16,23 +16,16 @@
           {
             "controlType": "INPUT_TEXT",
             "defaultValue": "[]",
-            "id": "whgoapnyqd",
-            "label": "getExecutionId",
-            "propertyName": "inputs.getExecutionId"
-          },
-          {
-            "controlType": "INPUT_TEXT",
-            "defaultValue": "[]",
-            "id": "oxwjkfomgk",
-            "label": "getRunnerId",
-            "propertyName": "inputs.getRunnerId"
-          },
-          {
-            "controlType": "INPUT_TEXT",
-            "defaultValue": "[]",
             "id": "qfkkrhatmb",
             "label": "setToken",
             "propertyName": "inputs.setToken"
+          },
+          {
+            "controlType": "INPUT_TEXT",
+            "defaultValue": "[]",
+            "id": "whgoapnyqd",
+            "label": "getExecutionId",
+            "propertyName": "inputs.getExecutionId"
           },
           {
             "controlType": "INPUT_TEXT",
@@ -44,16 +37,9 @@
           {
             "controlType": "INPUT_TEXT",
             "defaultValue": "[]",
-            "id": "rnbsjjhzcj",
-            "label": "getExecutionOutput",
-            "propertyName": "inputs.getExecutionOutput"
-          },
-          {
-            "controlType": "INPUT_TEXT",
-            "defaultValue": "[]",
-            "id": "cfszgmjklc",
-            "label": "getDeploymentId",
-            "propertyName": "inputs.getDeploymentId"
+            "id": "oxwjkfomgk",
+            "label": "getRunnerId",
+            "propertyName": "inputs.getRunnerId"
           },
           {
             "controlType": "INPUT_TEXT",
@@ -65,6 +51,13 @@
           {
             "controlType": "INPUT_TEXT",
             "defaultValue": "[]",
+            "id": "rnbsjjhzcj",
+            "label": "getExecutionOutput",
+            "propertyName": "inputs.getExecutionOutput"
+          },
+          {
+            "controlType": "INPUT_TEXT",
+            "defaultValue": "[]",
             "id": "ewcaiwgpnu",
             "label": "executeAutomationRealtime",
             "propertyName": "inputs.executeAutomationRealtime"
@@ -72,16 +65,9 @@
           {
             "controlType": "INPUT_TEXT",
             "defaultValue": "[]",
-            "id": "mtxklqdzcm",
-            "label": "setRunnerId",
-            "propertyName": "inputs.setRunnerId"
-          },
-          {
-            "controlType": "INPUT_TEXT",
-            "defaultValue": "[]",
-            "id": "lmykhqfqwi",
-            "label": "executeAutomationUnattended",
-            "propertyName": "inputs.executeAutomationUnattended"
+            "id": "cfszgmjklc",
+            "label": "getDeploymentId",
+            "propertyName": "inputs.getDeploymentId"
           },
           {
             "controlType": "INPUT_TEXT",
@@ -89,6 +75,13 @@
             "id": "mndfnbmmev",
             "label": "executeAutomationHeadless",
             "propertyName": "inputs.executeAutomationHeadless"
+          },
+          {
+            "controlType": "INPUT_TEXT",
+            "defaultValue": "[]",
+            "id": "lmykhqfqwi",
+            "label": "executeAutomationUnattended",
+            "propertyName": "inputs.executeAutomationUnattended"
           },
           {
             "controlType": "INPUT_TEXT",
@@ -103,6 +96,20 @@
             "id": "yipxtpvjbm",
             "label": "getRealtimeExecutionOutput",
             "propertyName": "inputs.getRealtimeExecutionOutput"
+          },
+          {
+            "controlType": "INPUT_TEXT",
+            "defaultValue": "[]",
+            "id": "mtxklqdzcm",
+            "label": "setRunnerId",
+            "propertyName": "inputs.setRunnerId"
+          },
+          {
+            "controlType": "INPUT_TEXT",
+            "defaultValue": "[]",
+            "id": "rcjbyfvfpl",
+            "label": "executeAutomation",
+            "propertyName": "inputs.executeAutomation"
           }
         ],
         "id": "wwawxndskm",
