@@ -8,14 +8,14 @@
         "children": [
           {
             "controlType": "INPUT_TEXT",
-            "defaultValue": "Automation Anywhere\\Bots\\AgenticWorkspaceSamples\\ChatTask",
+            "defaultValue": "",
             "id": "utjlqtpgnm",
             "label": "repositoryPath",
             "propertyName": "inputs.repositoryPath"
           },
           {
             "controlType": "INPUT_TEXT",
-            "defaultValue": "eyJhbGciOiJSUzUxMiJ9.eyJzdWIiOiIxNjE5IiwiY2xpZW50VHlwZSI6IldFQiIsInRlbmFudFV1aWQiOiIwYTY2NDQwMS03ODA2LTFkZDUtODE3OC02NzdiZGQyNDAxNDkiLCJtdWx0aXBsZUxvZ2luIjpmYWxzZSwiaWF0IjoxNzYxMzgwNTYyLCJleHAiOjE3NjE5ODUzNjIsImlzcyI6IkF1dG9tYXRpb25Bbnl3aGVyZSIsIm5hbm9UaW1lIjo2MzI5NTM1MTAwNDAzNjUwfQ.AoXC_1g19bINbaBtVn2-DZinps1lsirYhkePQKBUMVMBeXpx4sPBVDleTV2WDeybFtFnXNDHsuc1rb745TcpgWe2XNIn9pJ7R4i_acJfBDKBzOsuJlax4_xKhqFNz1LKBDhe2ri3WJ93vY1l2JJ-2Hyje7h6uVceIFV25AGHRwRwHwzvnCf3YjifrQjFYK3ql8G4la_s-v5dxFQ8EfjDabCfTirX7cjMjgqNZNa2qt39-in8FjS9uPLztqVsfbc5FGc5NtWWRd7PxFRoLsLvczSNZer7uax25AcjDcLj2OAwKAJiA3bxyEc8GHp6jlYXQ1HhOWQrzb-yF_80bgUm4g",
+            "defaultValue": "",
             "id": "ltkveozyzl",
             "label": "token",
             "propertyName": "inputs.token"
