@@ -19,6 +19,7 @@ export default {
 		pollUnattended: 5000,
 		pollHeadless: 1500
 	},
+	
 
 	/**
 	 * Configure polling-related timeouts.
