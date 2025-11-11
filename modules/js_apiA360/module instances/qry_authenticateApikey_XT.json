@@ -1,0 +1,32 @@
+{
+  "gitSyncId": "68f7baaa76976230880d71a4_0ab32593-8df7-4bf7-94e1-77890cda73c7",
+  "id": "js_apiA360_qry_authenticateApikey_XT",
+  "moduleUUID": "22fc10bf-211e-4bc0-9d12-b180afa91f45",
+  "packageUUID": "6deb9cad-b67f-4f79-b7ed-1d334c387541",
+  "type": "QUERY_MODULE",
+  "unpublishedModuleInstance": {
+    "contextType": "MODULE",
+    "inputs": {
+      "apiKey": "KT6U]ijevR`twV5Jo7Wj[{z8>tIspFU`5=l0m;7B",
+      "user": "stefan.karsten.runner"
+    },
+    "moduleId": "js_apiA360",
+    "moduleInputs": {
+      "rnwatoiorb": {
+        "controlType": "INPUT_TEXT",
+        "defaultValue": "",
+        "id": "rnwatoiorb",
+        "label": "apiKey",
+        "propertyName": "inputs.apiKey"
+      },
+      "spdjuqycql": {
+        "controlType": "INPUT_TEXT",
+        "defaultValue": "",
+        "id": "spdjuqycql",
+        "label": "user",
+        "propertyName": "inputs.user"
+      }
+    },
+    "name": "qry_authenticateApikey_XT"
+  }
+}

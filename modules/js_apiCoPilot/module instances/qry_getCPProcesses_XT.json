@@ -1,0 +1,24 @@
+{
+  "gitSyncId": "68f7baaa76976230880d71a4_fe844b2b-8fd1-4345-921f-28b0068c829e",
+  "id": "js_apiCoPilot_qry_getCPProcesses_XT",
+  "moduleUUID": "1e7f9cee-6c85-4825-bb9c-01b4d6d982d8",
+  "packageUUID": "6deb9cad-b67f-4f79-b7ed-1d334c387541",
+  "type": "QUERY_MODULE",
+  "unpublishedModuleInstance": {
+    "contextType": "MODULE",
+    "inputs": {
+      "token": "eyJhbGciOiJSUzUxMiJ9.eyJzdWIiOiIxMDAwMjI4NzgiLCJjbGllbnRUeXBlIjoiV0VCIiwidGVuYW50VXVpZCI6IjBhNjY0NDAxLTc4MDYtMWRkNS04MTc4LTY3N2JkZDI0MDE0OSIsIm11bHRpcGxlTG9naW4iOmZhbHNlLCJpYXQiOjE3NjE3NjM1NDYsImV4cCI6MTc2MjM2ODM0NiwiaXNzIjoiQXV0b21hdGlvbkFueXdoZXJlIiwibmFub1RpbWUiOjY3MTI1MTkyOTU5Njc5MjZ9.nxhEvOKr0Ni_o3EcSqF_R0TPNt4j9kW_P7XrRAcaYId9oqPW7pJAgW1TKUJ6gwM7FeTGc5JvkirbTX2vfJXfZzIe-8POzVJgLBZasdROEnBwSPRU_caSNN2g53wjZVgoAYQmufXt1bVaB02g-DiD91M3fyTszk5IhvWNDH7Jjoro7sEeZw1u8N8MubcSxsIVw_eUk-AFOk78tfcAivkndAzUZEA-wjT3dGIrrZi7VxQ3Y8W_ra984vzfF-9hAGfqxQNdzPM1N7frEV247FMMw5yJNqB4N9vRS2ZVo3S7OgOgeyRdiW1x2_54cpZtDSGFp2Cy8tXNGEFW8ngQe7-R5A"
+    },
+    "moduleId": "js_apiCoPilot",
+    "moduleInputs": {
+      "hjnxmkiwmv": {
+        "controlType": "INPUT_TEXT",
+        "defaultValue": "",
+        "id": "hjnxmkiwmv",
+        "label": "token",
+        "propertyName": "inputs.token"
+      }
+    },
+    "name": "qry_getCPProcesses_XT"
+  }
+}

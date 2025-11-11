@@ -1,0 +1,32 @@
+{
+  "gitSyncId": "68f7baaa76976230880d71a4_f3f987dc-c6d9-493a-bbd0-864f16203f27",
+  "id": "js_apiA360_qry_authenticatePwd_XT",
+  "moduleUUID": "aed59775-5efd-4c5b-b4f3-2bf6f9773049",
+  "packageUUID": "6deb9cad-b67f-4f79-b7ed-1d334c387541",
+  "type": "QUERY_MODULE",
+  "unpublishedModuleInstance": {
+    "contextType": "MODULE",
+    "inputs": {
+      "password": "",
+      "user": ""
+    },
+    "moduleId": "js_apiA360",
+    "moduleInputs": {
+      "uxomkitypw": {
+        "controlType": "INPUT_TEXT",
+        "defaultValue": "",
+        "id": "uxomkitypw",
+        "label": "password",
+        "propertyName": "inputs.password"
+      },
+      "wreankfdkf": {
+        "controlType": "INPUT_TEXT",
+        "defaultValue": "",
+        "id": "wreankfdkf",
+        "label": "user",
+        "propertyName": "inputs.user"
+      }
+    },
+    "name": "qry_authenticatePwd_XT"
+  }
+}

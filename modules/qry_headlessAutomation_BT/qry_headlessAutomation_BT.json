@@ -1,0 +1,44 @@
+{
+  "gitSyncId": "6904621376976230880f0176_5d3be51e-ac08-4d1c-a952-766120795454",
+  "moduleUUID": "74b108f5-f1cf-40bc-a0e2-0537d2f8cd4c",
+  "type": "QUERY_MODULE",
+  "unpublishedModule": {
+    "inputsForm": [
+      {
+        "children": [
+          {
+            "controlType": "INPUT_TEXT",
+            "defaultValue": "",
+            "id": "dadjgqhbnl",
+            "label": "automationName",
+            "propertyName": "inputs.automationName"
+          },
+          {
+            "controlType": "INPUT_TEXT",
+            "defaultValue": "",
+            "id": "alxlzzrbjd",
+            "label": "botId",
+            "propertyName": "inputs.botId"
+          },
+          {
+            "controlType": "INPUT_TEXT",
+            "defaultValue": "",
+            "id": "rjuccpzpts",
+            "label": "runnerId",
+            "propertyName": "inputs.runnerId"
+          },
+          {
+            "controlType": "INPUT_TEXT",
+            "defaultValue": "",
+            "id": "gxiztlapaq",
+            "label": "botInputJSON",
+            "propertyName": "inputs.botInputJSON"
+          }
+        ],
+        "id": "mmkmjsbhyd",
+        "sectionName": ""
+      }
+    ],
+    "name": "qry_headlessAutomation_BT"
+  }
+}

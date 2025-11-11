@@ -1,0 +1,23 @@
+{
+  "gitSyncId": "6904621376976230880f0176_a62d1254-375a-4f3d-8428-49342b089ba3",
+  "moduleUUID": "870950ae-6e6d-44bf-a87b-24907b588603",
+  "type": "QUERY_MODULE",
+  "unpublishedModule": {
+    "inputsForm": [
+      {
+        "children": [
+          {
+            "controlType": "INPUT_TEXT",
+            "defaultValue": "",
+            "id": "wjdcwmlmly",
+            "label": "deploymentId",
+            "propertyName": "inputs.deploymentId"
+          }
+        ],
+        "id": "ceikrabord",
+        "sectionName": ""
+      }
+    ],
+    "name": "qry_deploymentStatus_BT"
+  }
+}

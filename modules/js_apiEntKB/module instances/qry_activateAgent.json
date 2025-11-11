@@ -1,0 +1,56 @@
+{
+  "gitSyncId": "68f7baaa76976230880d71a4_e10e757b-6912-4714-9440-db4164d3617f",
+  "id": "js_apiEntKB_qry_activateAgent",
+  "moduleUUID": "f8b7e5ee-968d-4d90-ac22-6ded95b49393",
+  "packageUUID": "6deb9cad-b67f-4f79-b7ed-1d334c387541",
+  "type": "QUERY_MODULE",
+  "unpublishedModuleInstance": {
+    "contextType": "MODULE",
+    "inputs": {
+      "agentId": "",
+      "apiKey": "",
+      "chatId": "",
+      "projectId": "",
+      "secret": ""
+    },
+    "moduleId": "js_apiEntKB",
+    "moduleInputs": {
+      "gyxhvuwxgb": {
+        "controlType": "INPUT_TEXT",
+        "defaultValue": "",
+        "id": "gyxhvuwxgb",
+        "label": "chatId",
+        "propertyName": "inputs.chatId"
+      },
+      "hxvhfpjqwe": {
+        "controlType": "INPUT_TEXT",
+        "defaultValue": "",
+        "id": "hxvhfpjqwe",
+        "label": "secret",
+        "propertyName": "inputs.secret"
+      },
+      "qfsyfceqpy": {
+        "controlType": "INPUT_TEXT",
+        "defaultValue": "",
+        "id": "qfsyfceqpy",
+        "label": "projectId",
+        "propertyName": "inputs.projectId"
+      },
+      "ttcgfbherw": {
+        "controlType": "INPUT_TEXT",
+        "defaultValue": "",
+        "id": "ttcgfbherw",
+        "label": "agentId",
+        "propertyName": "inputs.agentId"
+      },
+      "ughfoujuym": {
+        "controlType": "INPUT_TEXT",
+        "defaultValue": "",
+        "id": "ughfoujuym",
+        "label": "apiKey",
+        "propertyName": "inputs.apiKey"
+      }
+    },
+    "name": "qry_activateAgent"
+  }
+}

@@ -1,0 +1,7 @@
+{	
+	"filter": {
+		"operator": "eq",
+		"field":"deploymentId",
+		"value": {{inputs.deploymentId}}
+	}
+}

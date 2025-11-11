@@ -1,0 +1,23 @@
+{
+  "gitSyncId": "6904621376976230880f0176_0f47a46f-1bcf-4837-bae7-a6569c3ecd28",
+  "moduleUUID": "0c146502-bf87-4d83-94e7-42159435442a",
+  "type": "QUERY_MODULE",
+  "unpublishedModule": {
+    "inputsForm": [
+      {
+        "children": [
+          {
+            "controlType": "INPUT_TEXT",
+            "defaultValue": "",
+            "id": "lxcjbgctvx",
+            "label": "executionId",
+            "propertyName": "inputs.executionId"
+          }
+        ],
+        "id": "znjhvckwjj",
+        "sectionName": ""
+      }
+    ],
+    "name": "qry_executionStatus_BT"
+  }
+}

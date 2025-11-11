@@ -1,0 +1,40 @@
+{
+  "gitSyncId": "68f7baaa76976230880d71a4_818766fd-4d97-4c4c-975c-b8d6162a4eb3",
+  "id": "js_apiA360_qry_realtimeExecution",
+  "moduleUUID": "7906a8dc-f996-4d0f-8d49-71f24d1eddfa",
+  "packageUUID": "6deb9cad-b67f-4f79-b7ed-1d334c387541",
+  "type": "QUERY_MODULE",
+  "unpublishedModuleInstance": {
+    "contextType": "MODULE",
+    "inputs": {
+      "botInputJSON": "",
+      "executionURL": "",
+      "realtimeToken": ""
+    },
+    "moduleId": "js_apiA360",
+    "moduleInputs": {
+      "fyjxpcdmyn": {
+        "controlType": "INPUT_TEXT",
+        "defaultValue": "",
+        "id": "fyjxpcdmyn",
+        "label": "realtimeToken",
+        "propertyName": "inputs.realtimeToken"
+      },
+      "iaexqatdsp": {
+        "controlType": "INPUT_TEXT",
+        "defaultValue": "",
+        "id": "iaexqatdsp",
+        "label": "executionURL",
+        "propertyName": "inputs.executionURL"
+      },
+      "uwaknrbmqb": {
+        "controlType": "INPUT_TEXT",
+        "defaultValue": "",
+        "id": "uwaknrbmqb",
+        "label": "botInputJSON",
+        "propertyName": "inputs.botInputJSON"
+      }
+    },
+    "name": "qry_realtimeExecution"
+  }
+}

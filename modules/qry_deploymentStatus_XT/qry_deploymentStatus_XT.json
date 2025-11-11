@@ -1,0 +1,30 @@
+{
+  "gitSyncId": "68f72f0c76976230880d2c29_50413369-73b9-4c51-94ef-84dc837ca4d4",
+  "moduleUUID": "8df38c99-18e9-4532-9f2c-41881c94802e",
+  "type": "QUERY_MODULE",
+  "unpublishedModule": {
+    "inputsForm": [
+      {
+        "children": [
+          {
+            "controlType": "INPUT_TEXT",
+            "defaultValue": "",
+            "id": "oqtoshcbhn",
+            "label": "deploymentId",
+            "propertyName": "inputs.deploymentId"
+          },
+          {
+            "controlType": "INPUT_TEXT",
+            "defaultValue": "",
+            "id": "rfspzzosrd",
+            "label": "token",
+            "propertyName": "inputs.token"
+          }
+        ],
+        "id": "yxjvnofruw",
+        "sectionName": ""
+      }
+    ],
+    "name": "qry_deploymentStatus_XT"
+  }
+}

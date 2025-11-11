@@ -1,0 +1,48 @@
+{
+  "gitSyncId": "68f7baaa76976230880d71a4_dce33695-d584-4d9f-9176-13c574b1fdee",
+  "id": "js_apiEntKB_qry_createChat",
+  "moduleUUID": "5237546a-5eb3-46aa-814f-35e831e60d7c",
+  "packageUUID": "6deb9cad-b67f-4f79-b7ed-1d334c387541",
+  "type": "QUERY_MODULE",
+  "unpublishedModuleInstance": {
+    "contextType": "MODULE",
+    "inputs": {
+      "apiKey": "",
+      "name": "",
+      "projectId": "",
+      "secret": ""
+    },
+    "moduleId": "js_apiEntKB",
+    "moduleInputs": {
+      "celemzbzta": {
+        "controlType": "INPUT_TEXT",
+        "defaultValue": "",
+        "id": "celemzbzta",
+        "label": "secret",
+        "propertyName": "inputs.secret"
+      },
+      "ekuspbozki": {
+        "controlType": "INPUT_TEXT",
+        "defaultValue": "",
+        "id": "ekuspbozki",
+        "label": "name",
+        "propertyName": "inputs.name"
+      },
+      "mnrutjimfn": {
+        "controlType": "INPUT_TEXT",
+        "defaultValue": "",
+        "id": "mnrutjimfn",
+        "label": "apiKey",
+        "propertyName": "inputs.apiKey"
+      },
+      "opgvknicsk": {
+        "controlType": "INPUT_TEXT",
+        "defaultValue": "",
+        "id": "opgvknicsk",
+        "label": "projectId",
+        "propertyName": "inputs.projectId"
+      }
+    },
+    "name": "qry_createChat"
+  }
+}

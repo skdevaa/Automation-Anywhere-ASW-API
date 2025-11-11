@@ -1,0 +1,13 @@
+{
+  "gitSyncId": "690262ac76976230880ea82f_135f4dd2-67fc-4323-bf74-e97ff4a61a8b",
+  "id": "js_apiCoPilot_js_apiCoPilot",
+  "isPublic": true,
+  "unpublishedCollection": {
+    "contextType": "MODULE",
+    "moduleId": "js_apiCoPilot",
+    "name": "js_apiCoPilot",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

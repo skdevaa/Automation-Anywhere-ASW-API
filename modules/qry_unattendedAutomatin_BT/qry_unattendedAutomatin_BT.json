@@ -1,0 +1,65 @@
+{
+  "gitSyncId": "6904621376976230880f0176_bff0da5c-b9cf-41d2-9100-88fb7b2920d4",
+  "moduleUUID": "10f79309-2116-4fd1-9eb2-12f4eddef95e",
+  "type": "QUERY_MODULE",
+  "unpublishedModule": {
+    "inputsForm": [
+      {
+        "children": [
+          {
+            "controlType": "INPUT_TEXT",
+            "defaultValue": "",
+            "id": "atxclooqxl",
+            "label": "automationName",
+            "propertyName": "inputs.automationName"
+          },
+          {
+            "controlType": "INPUT_TEXT",
+            "defaultValue": "",
+            "id": "zdxtabntjw",
+            "label": "botId",
+            "propertyName": "inputs.botId"
+          },
+          {
+            "controlType": "INPUT_TEXT",
+            "defaultValue": "",
+            "id": "xxneiduztf",
+            "label": "automationPriority",
+            "propertyName": "inputs.automationPriority"
+          },
+          {
+            "controlType": "INPUT_TEXT",
+            "defaultValue": "",
+            "id": "ffatnzllkw",
+            "label": "runnerId",
+            "propertyName": "inputs.runnerId"
+          },
+          {
+            "controlType": "INPUT_TEXT",
+            "defaultValue": "",
+            "id": "ogvekglbhz",
+            "label": "devicePoolId",
+            "propertyName": "inputs.devicePoolId"
+          },
+          {
+            "controlType": "INPUT_TEXT",
+            "defaultValue": "",
+            "id": "cmjvgoerge",
+            "label": "deviceUsageType",
+            "propertyName": "inputs.deviceUsageType"
+          },
+          {
+            "controlType": "INPUT_TEXT",
+            "defaultValue": "",
+            "id": "byfdgmegpy",
+            "label": "botInputJSON",
+            "propertyName": "inputs.botInputJSON"
+          }
+        ],
+        "id": "oapiwslvqk",
+        "sectionName": ""
+      }
+    ],
+    "name": "qry_unattendedAutomatin_BT"
+  }
+}
