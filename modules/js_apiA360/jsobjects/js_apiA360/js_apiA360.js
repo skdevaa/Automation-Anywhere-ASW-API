@@ -20,6 +20,7 @@ export default {
 		pollHeadless: 1500
 	},
 
+	
 	/**
 	 * Configure polling-related timeouts.
 	 *
