@@ -19,7 +19,7 @@ export default {
 		pollUnattended: 5000,
 		pollHeadless: 1500
 	},
-	
+
 	/**
 	 * Configure polling-related timeouts.
 	 *
@@ -199,6 +199,7 @@ export default {
 	 * @returns {Promise<*>} Result of the execution, depending on type.
 	 * @throws {Error} If type is not specified or unsupported.
 	 */
+
 	async executeAutomation(
 		automationName,
 		type,
@@ -211,13 +212,15 @@ export default {
 		botInputJSON,
 		repositoryPath
 	) {
-		let botInput = (botInputJSON === "" || botInputJSON == null) ? {} : botInputJSON;
-
+		botInputJSON = (botInputJSON === "" || botInputJSON === null || botInputJSON === undefined) ? "" : botInputJSON;
+		poolId = (poolId === "" || poolId === null || poolId === undefined) ? "" : poolId;
+		repositoryPath = (repositoryPath === "" || repositoryPath === null || repositoryPath === undefined) ? "" : repositoryPath;
+		debugger;
 		switch (type) {
 			case "headless":
 				this.setToken(user, apiKey);
 				this.setRunnerId(runnerId);
-				return await this.executeAutomationHeadless(automationName, botId, botInput);
+				return await this.executeAutomationHeadless(automationName, botId, botInputJSON);
 
 			case "unattended":
 				this.setToken(user, apiKey);
