@@ -36,7 +36,7 @@ export default {
 
 
 	async getRequests(token,filterOperand,titleFilter,statusFilter) {
-		let response = await qry_getCPInstances_XT.run({ token: token, filterOperand: filterOperand, statusFilter: titleFilter, titleFilter: statusFilter })
+		let response = await qry_getCPInstances_XT.run({ token: token, filterOperand: filterOperand, statusFilter: statusFilter, titleFilter: titleFilter })
 
 		return response.list
 
