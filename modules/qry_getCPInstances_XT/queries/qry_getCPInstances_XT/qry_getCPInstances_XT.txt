@@ -1,24 +1,19 @@
-{    
- "filter": {
-        "operator":"{{inputs.filterOperand}}",
-        "operands":[
-
-          {
-            "operator": "eq",
-            "value": "{{inputs.statusFilter}}",
-            "field": "status"
-            },
-            
-            {
-            "operator": "substring",
-            "value": "{{inputs.titleFilter}}",
-            "field": "title"
-            }
-        ]
-    },
-
-
-    "page": {
-        "offset": 0,
-        "length": 100000
-    }
+{
+  "filter": {
+    "operator": "{{ inputs.filterOperand }}",
+    "operands": {{
+      [
+        inputs.statusFilter
+          ? { operator: "eq",        value: inputs.statusFilter,  field: "status" }
+          : null,
+        inputs.titleFilter
+          ? { operator: "substring", value: inputs.titleFilter,   field: "title" }
+          : null
+      ].filter(Boolean)   // removes nulls
+    }}
+  },
+  "page": {
+    "offset": 0,
+    "length": 100000
+  }
+}

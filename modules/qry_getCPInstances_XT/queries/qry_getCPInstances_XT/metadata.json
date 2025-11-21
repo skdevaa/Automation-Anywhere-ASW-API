@@ -12,7 +12,7 @@
           "value": "application/json"
         }
       ],
-      "body": "{    \n \"filter\": {\n        \"operator\":\"{{inputs.filterOperand}}\",\n        \"operands\":[\n\n          {\n            \"operator\": \"eq\",\n            \"value\": \"{{inputs.statusFilter}}\",\n            \"field\": \"status\"\n            },\n            \n            {\n            \"operator\": \"substring\",\n            \"value\": \"{{inputs.titleFilter}}\",\n            \"field\": \"title\"\n            }\n        ]\n    },\n\n\n    \"page\": {\n        \"offset\": 0,\n        \"length\": 100000\n    }",
+      "body": "{\n  \"filter\": {\n    \"operator\": \"{{ inputs.filterOperand }}\",\n    \"operands\": {{\n      [\n        inputs.statusFilter\n          ? { operator: \"eq\",        value: inputs.statusFilter,  field: \"status\" }\n          : null,\n        inputs.titleFilter\n          ? { operator: \"substring\", value: inputs.titleFilter,   field: \"title\" }\n          : null\n      ].filter(Boolean)   // removes nulls\n    }}\n  },\n  \"page\": {\n    \"offset\": 0,\n    \"length\": 100000\n  }\n}\n",
       "bodyFormData": [],
       "encodeParamsToggle": true,
       "formData": {
