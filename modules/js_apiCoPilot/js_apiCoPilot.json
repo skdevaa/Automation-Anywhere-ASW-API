@@ -9,13 +9,6 @@
           {
             "controlType": "INPUT_TEXT",
             "defaultValue": "[]",
-            "id": "aodfphbyju",
-            "label": "getAutomation",
-            "propertyName": "inputs.getAutomation"
-          },
-          {
-            "controlType": "INPUT_TEXT",
-            "defaultValue": "[]",
             "id": "vqoqqnmzeq",
             "label": "getInitForm",
             "propertyName": "inputs.getInitForm"
@@ -23,9 +16,23 @@
           {
             "controlType": "INPUT_TEXT",
             "defaultValue": "[]",
+            "id": "aodfphbyju",
+            "label": "getAutomation",
+            "propertyName": "inputs.getAutomation"
+          },
+          {
+            "controlType": "INPUT_TEXT",
+            "defaultValue": "[]",
             "id": "kirvydgndu",
             "label": "extractLabelValues",
             "propertyName": "inputs.extractLabelValues"
+          },
+          {
+            "controlType": "INPUT_TEXT",
+            "defaultValue": "[]",
+            "id": "prvzetdpea",
+            "label": "getRequests",
+            "propertyName": "inputs.getRequests"
           }
         ],
         "id": "uiwcixbxcg",

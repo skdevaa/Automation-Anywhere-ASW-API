@@ -1,0 +1,44 @@
+{
+  "gitSyncId": "6904621376976230880f0176_ae389037-82e4-4f4b-af3a-9a8159e0a23d",
+  "moduleUUID": "3141f8ed-530d-42ed-9fbf-bdf23b55c54d",
+  "type": "QUERY_MODULE",
+  "unpublishedModule": {
+    "inputsForm": [
+      {
+        "children": [
+          {
+            "controlType": "INPUT_TEXT",
+            "defaultValue": "",
+            "id": "bibjjsyjcj",
+            "label": "token",
+            "propertyName": "inputs.token"
+          },
+          {
+            "controlType": "INPUT_TEXT",
+            "defaultValue": "and",
+            "id": "xpqipawapi",
+            "label": "filterOperand",
+            "propertyName": "inputs.filterOperand"
+          },
+          {
+            "controlType": "INPUT_TEXT",
+            "defaultValue": "",
+            "id": "jgoviqzusy",
+            "label": "statusFilter",
+            "propertyName": "inputs.statusFilter"
+          },
+          {
+            "controlType": "INPUT_TEXT",
+            "defaultValue": "",
+            "id": "skhkbjqikw",
+            "label": "titleFilter",
+            "propertyName": "inputs.titleFilter"
+          }
+        ],
+        "id": "ewqyqkogws",
+        "sectionName": ""
+      }
+    ],
+    "name": "qry_getCPInstances_XT"
+  }
+}

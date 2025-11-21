@@ -1,6 +1,6 @@
 {
   "gitSyncId": "45300b96-5866-4f67-82b3-31569b6c9636_aa2ec28d-e1ac-49f9-8d45-c7f460834c19",
-  "id": "qry_getcopilotinitform_XT_qry_getcopilotinitform_XT",
+  "id": "qry_getCPinitform_XT_qry_getCPinitform_XT",
   "isPublic": true,
   "pluginId": "restapi-plugin",
   "pluginType": "API",
@@ -47,8 +47,8 @@
         "key": "path"
       }
     ],
-    "moduleId": "qry_getcopilotinitform_XT",
-    "name": "qry_getcopilotinitform_XT",
+    "moduleId": "qry_getCPinitform_XT",
+    "name": "qry_getCPinitform_XT",
     "userSetOnLoad": false
   }
 }

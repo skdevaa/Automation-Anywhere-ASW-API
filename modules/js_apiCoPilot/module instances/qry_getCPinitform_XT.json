@@ -1,6 +1,6 @@
 {
   "gitSyncId": "68f7baaa76976230880d71a4_93908561-c8f4-400d-b8ff-5abbe534d72a",
-  "id": "js_apiCoPilot_qry_getcopilotinitform_XT",
+  "id": "js_apiCoPilot_qry_getCPinitform_XT",
   "moduleUUID": "c46fac7c-8f3a-4443-8ccc-d28a5e0044d5",
   "packageUUID": "6deb9cad-b67f-4f79-b7ed-1d334c387541",
   "type": "QUERY_MODULE",
@@ -27,6 +27,6 @@
         "propertyName": "inputs.token"
       }
     },
-    "name": "qry_getcopilotinitform_XT"
+    "name": "qry_getCPinitform_XT"
   }
 }

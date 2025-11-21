@@ -1,0 +1,48 @@
+{
+  "gitSyncId": "6904621376976230880f0176_f70365f2-fdfd-4560-a503-b391d2652af4",
+  "id": "js_apiCoPilot_qry_getCPInstances_XT",
+  "moduleUUID": "3141f8ed-530d-42ed-9fbf-bdf23b55c54d",
+  "packageUUID": "6deb9cad-b67f-4f79-b7ed-1d334c387541",
+  "type": "QUERY_MODULE",
+  "unpublishedModuleInstance": {
+    "contextType": "MODULE",
+    "inputs": {
+      "filterOperand": "and",
+      "statusFilter": "",
+      "titleFilter": "",
+      "token": ""
+    },
+    "moduleId": "js_apiCoPilot",
+    "moduleInputs": {
+      "bibjjsyjcj": {
+        "controlType": "INPUT_TEXT",
+        "defaultValue": "",
+        "id": "bibjjsyjcj",
+        "label": "token",
+        "propertyName": "inputs.token"
+      },
+      "jgoviqzusy": {
+        "controlType": "INPUT_TEXT",
+        "defaultValue": "",
+        "id": "jgoviqzusy",
+        "label": "statusFilter",
+        "propertyName": "inputs.statusFilter"
+      },
+      "skhkbjqikw": {
+        "controlType": "INPUT_TEXT",
+        "defaultValue": "",
+        "id": "skhkbjqikw",
+        "label": "titleFilter",
+        "propertyName": "inputs.titleFilter"
+      },
+      "xpqipawapi": {
+        "controlType": "INPUT_TEXT",
+        "defaultValue": "and",
+        "id": "xpqipawapi",
+        "label": "filterOperand",
+        "propertyName": "inputs.filterOperand"
+      }
+    },
+    "name": "qry_getCPInstances_XT"
+  }
+}
