@@ -1,0 +1,32 @@
+{
+  "gitSyncId": "69201c30a723d11c94555073_a4463d89-cb42-44a5-81a1-c35d9fee411e",
+  "id": "js_apiCoPilot_qry_getCPTaskDetails",
+  "moduleUUID": "b3aa9811-1b7b-4632-937c-b88722770c40",
+  "packageUUID": "6deb9cad-b67f-4f79-b7ed-1d334c387541",
+  "type": "QUERY_MODULE",
+  "unpublishedModuleInstance": {
+    "contextType": "MODULE",
+    "inputs": {
+      "taskId": "100167050",
+      "token": "eyJhbGciOiJSUzUxMiJ9.eyJzdWIiOiIxNjE5IiwiY2xpZW50VHlwZSI6IldFQiIsInRlbmFudFV1aWQiOiIwYTY2NDQwMS03ODA2LTFkZDUtODE3OC02NzdiZGQyNDAxNDkiLCJtdWx0aXBsZUxvZ2luIjpmYWxzZSwiaWF0IjoxNzYzNzUwNTU3LCJleHAiOjE3NjQzNTUzNTcsImlzcyI6IkF1dG9tYXRpb25Bbnl3aGVyZSIsIm5hbm9UaW1lIjoxODY2MzI4ODU4NzQ3NzI3fQ.SK8oGIjeRfD7fof2zW8fbBprrViqNOLq1E_Db68IKJkRt4F3mPa2vmV7gDBMXjbT3NK6NaYL-Gkyak8dP-dkgzwQA0ZuMApB_UloM6wR25QFXpIzEsfnaal24LwpZdQJLL1QlcRlW9CHRgHQXR2BkSUVJba-4kM6YX4-3xnsXemxOP1DxINP6lNLoX9eiMXXQOD7TtmEsAjZT-pedx2Qw2ZisvWa0BG0k6Bw6lSAxmbLKgwuJxkD9cpDyKpN4KI_hCCqW_MRF96hh3f3oOJZJ8bhqgMCxQfcGfB6aoD_Kim71pIvSy1CvZfVR4okVqStgUh8CUkXQRMC6XW88icQ9A"
+    },
+    "moduleId": "js_apiCoPilot",
+    "moduleInputs": {
+      "fbwmehguju": {
+        "controlType": "INPUT_TEXT",
+        "defaultValue": "",
+        "id": "fbwmehguju",
+        "label": "taskId",
+        "propertyName": "inputs.taskId"
+      },
+      "meflnwcsza": {
+        "controlType": "INPUT_TEXT",
+        "defaultValue": "",
+        "id": "meflnwcsza",
+        "label": "token",
+        "propertyName": "inputs.token"
+      }
+    },
+    "name": "qry_getCPTaskDetails"
+  }
+}

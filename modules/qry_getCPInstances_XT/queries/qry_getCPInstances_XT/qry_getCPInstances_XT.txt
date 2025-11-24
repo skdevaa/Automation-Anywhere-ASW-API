@@ -12,6 +12,12 @@
       ].filter(Boolean)   // removes nulls
     }}
   },
+	"sort": [
+		{
+			"direction": "desc",
+			"field": "updatedOn"
+		}
+	],
   "page": {
     "offset": 0,
     "length": 100000

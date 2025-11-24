@@ -1,0 +1,23 @@
+{
+  "gitSyncId": "69201c30a723d11c94555073_b75d3396-81aa-4e53-8eca-22f43e453d12",
+  "moduleUUID": "4966b183-aed0-4663-b796-2b8ad2df9085",
+  "type": "QUERY_MODULE",
+  "unpublishedModule": {
+    "inputsForm": [
+      {
+        "children": [
+          {
+            "controlType": "INPUT_TEXT",
+            "defaultValue": "",
+            "id": "qcdlzvgocn",
+            "label": "token",
+            "propertyName": "inputs.token"
+          }
+        ],
+        "id": "jvrimnxqry",
+        "sectionName": ""
+      }
+    ],
+    "name": "qry_getCPNotifications"
+  }
+}

@@ -1,0 +1,5 @@
+{
+    "processId": {{inputs.processId}},
+    "inputs":  {{JSON.parse(inputs.processInputJSON)}},
+    "initiatorType": "BOT"
+}

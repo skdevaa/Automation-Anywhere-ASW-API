@@ -16,13 +16,6 @@
           {
             "controlType": "INPUT_TEXT",
             "defaultValue": "[]",
-            "id": "aodfphbyju",
-            "label": "getAutomation",
-            "propertyName": "inputs.getAutomation"
-          },
-          {
-            "controlType": "INPUT_TEXT",
-            "defaultValue": "[]",
             "id": "kirvydgndu",
             "label": "extractLabelValues",
             "propertyName": "inputs.extractLabelValues"
@@ -30,9 +23,72 @@
           {
             "controlType": "INPUT_TEXT",
             "defaultValue": "[]",
-            "id": "prvzetdpea",
-            "label": "getRequests",
-            "propertyName": "inputs.getRequests"
+            "id": "plykzxxxtc",
+            "label": "getInstances",
+            "propertyName": "inputs.getInstances"
+          },
+          {
+            "controlType": "INPUT_TEXT",
+            "defaultValue": "[]",
+            "id": "aodfphbyju",
+            "label": "getAutomation",
+            "propertyName": "inputs.getAutomation"
+          },
+          {
+            "controlType": "INPUT_TEXT",
+            "defaultValue": "[]",
+            "id": "rffugfaytp",
+            "label": "getInstanceDetails",
+            "propertyName": "inputs.getInstanceDetails"
+          },
+          {
+            "controlType": "INPUT_TEXT",
+            "defaultValue": "[]",
+            "id": "xdlzabltro",
+            "label": "extractTaskDetails",
+            "propertyName": "inputs.extractTaskDetails"
+          },
+          {
+            "controlType": "INPUT_TEXT",
+            "defaultValue": "[]",
+            "id": "ppxmxtarto",
+            "label": "getTaskDetails",
+            "propertyName": "inputs.getTaskDetails"
+          },
+          {
+            "controlType": "INPUT_TEXT",
+            "defaultValue": "[]",
+            "id": "ctahsbqogj",
+            "label": "extractKeys",
+            "propertyName": "inputs.extractKeys"
+          },
+          {
+            "controlType": "INPUT_TEXT",
+            "defaultValue": "[]",
+            "id": "ohhqmksuqi",
+            "label": "newInstance",
+            "propertyName": "inputs.newInstance"
+          },
+          {
+            "controlType": "INPUT_TEXT",
+            "defaultValue": "[]",
+            "id": "hxamsdkldc",
+            "label": "submitTask",
+            "propertyName": "inputs.submitTask"
+          },
+          {
+            "controlType": "INPUT_TEXT",
+            "defaultValue": "[]",
+            "id": "ovwzhqhurh",
+            "label": "getNotifications",
+            "propertyName": "inputs.getNotifications"
+          },
+          {
+            "controlType": "INPUT_TEXT",
+            "defaultValue": "[]",
+            "id": "zouwrlreip",
+            "label": "localDateFormat",
+            "propertyName": "inputs.localDateFormat"
           }
         ],
         "id": "uiwcixbxcg",

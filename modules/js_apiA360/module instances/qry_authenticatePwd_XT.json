@@ -14,14 +14,14 @@
     "moduleInputs": {
       "uxomkitypw": {
         "controlType": "INPUT_TEXT",
-        "defaultValue": "",
+        "defaultValue": "Poggi345$2",
         "id": "uxomkitypw",
         "label": "password",
         "propertyName": "inputs.password"
       },
       "wreankfdkf": {
         "controlType": "INPUT_TEXT",
-        "defaultValue": "",
+        "defaultValue": "stefan.karsten.creator",
         "id": "wreankfdkf",
         "label": "user",
         "propertyName": "inputs.user"

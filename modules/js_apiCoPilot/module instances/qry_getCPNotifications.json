@@ -1,7 +1,7 @@
 {
-  "gitSyncId": "69201c30a723d11c94555073_ba19c402-fb0a-42ca-8e12-7be8b2dec9d9",
-  "id": "js_apiCoPilot_qry_getCPProcesses_XT",
-  "moduleUUID": "1e7f9cee-6c85-4825-bb9c-01b4d6d982d8",
+  "gitSyncId": "69201c30a723d11c94555073_656cb348-3c70-4400-8ea7-b48b4cb11b8b",
+  "id": "js_apiCoPilot_qry_getCPNotifications",
+  "moduleUUID": "4966b183-aed0-4663-b796-2b8ad2df9085",
   "packageUUID": "6deb9cad-b67f-4f79-b7ed-1d334c387541",
   "type": "QUERY_MODULE",
   "unpublishedModuleInstance": {
@@ -11,14 +11,14 @@
     },
     "moduleId": "js_apiCoPilot",
     "moduleInputs": {
-      "hjnxmkiwmv": {
+      "qcdlzvgocn": {
         "controlType": "INPUT_TEXT",
         "defaultValue": "",
-        "id": "hjnxmkiwmv",
+        "id": "qcdlzvgocn",
         "label": "token",
         "propertyName": "inputs.token"
       }
     },
-    "name": "qry_getCPProcesses_XT"
+    "name": "qry_getCPNotifications"
   }
 }

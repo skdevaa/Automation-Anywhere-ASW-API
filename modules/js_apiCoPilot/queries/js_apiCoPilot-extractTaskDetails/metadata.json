@@ -1,6 +1,6 @@
 {
-  "gitSyncId": "e5bc9607-e5dc-4015-9225-56eed0a21b56_ac73780f-b02a-45cf-817e-80cb8aea0e54",
-  "id": "js_apiCoPilot_js_apiCoPilot.getRequests",
+  "gitSyncId": "a13395d8-fab7-499e-b31f-a0713347744d_56bbe53c-989a-4316-8d4d-b3eb1d540a73",
+  "id": "js_apiCoPilot_js_apiCoPilot.extractTaskDetails",
   "isPublic": true,
   "pluginId": "js-plugin",
   "pluginType": "JS",
@@ -9,16 +9,7 @@
       "encodeParamsToggle": true,
       "jsArguments": [
         {
-          "name": "token"
-        },
-        {
-          "name": "filterOperand"
-        },
-        {
-          "name": "titleFilter"
-        },
-        {
-          "name": "statusFilter"
+          "name": "data"
         }
       ],
       "paginationType": "NONE",
@@ -37,9 +28,9 @@
         "key": "body"
       }
     ],
-    "fullyQualifiedName": "js_apiCoPilot.getRequests",
+    "fullyQualifiedName": "js_apiCoPilot.extractTaskDetails",
     "moduleId": "js_apiCoPilot",
-    "name": "getRequests",
+    "name": "extractTaskDetails",
     "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }

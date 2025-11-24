@@ -1,0 +1,6 @@
+{
+  "caseId": {{inputs.instanceId}},
+  "stepId": {{inputs.taskId}},
+	"button": {{inputs.button}},
+  "inputs": {{JSON.parse(inputs.formInput)}}
+}

@@ -1,6 +1,6 @@
 {
-  "gitSyncId": "95f9785d-ea5b-456a-928a-02fbd896385e_01fe288e-746f-43ba-9a6a-ccc1cf43cb6c",
-  "id": "qry_getCPInstances_XT_qry_getCPInstances_XT",
+  "gitSyncId": "bfb0c174-8b6d-4348-b8bd-d6cd53383f4a_cd5d6da1-b161-42a4-a519-883336912f23",
+  "id": "qry_submitCPTask_XT_qry_submitCPTask_XT",
   "isPublic": true,
   "pluginId": "restapi-plugin",
   "pluginType": "API",
@@ -12,7 +12,7 @@
           "value": "application/json"
         }
       ],
-      "body": "{\n  \"filter\": {\n    \"operator\": \"{{ inputs.filterOperand }}\",\n    \"operands\": {{\n      [\n        inputs.statusFilter\n          ? { operator: \"eq\",        value: inputs.statusFilter,  field: \"status\" }\n          : null,\n        inputs.titleFilter\n          ? { operator: \"substring\", value: inputs.titleFilter,   field: \"title\" }\n          : null\n      ].filter(Boolean)   // removes nulls\n    }}\n  },\n\t\"sort\": [\n\t\t{\n\t\t\t\"direction\": \"desc\",\n\t\t\t\"field\": \"updatedOn\"\n\t\t}\n\t],\n  \"page\": {\n    \"offset\": 0,\n    \"length\": 100000\n  }\n}\n",
+      "body": "{\n  \"caseId\": {{inputs.instanceId}},\n  \"stepId\": {{inputs.taskId}},\n\t\"button\": {{inputs.button}},\n  \"inputs\": {{JSON.parse(inputs.formInput)}}\n}\n",
       "bodyFormData": [],
       "encodeParamsToggle": true,
       "formData": {
@@ -27,7 +27,7 @@
       "httpMethod": "POST",
       "httpVersion": "HTTP11",
       "paginationType": "NONE",
-      "path": "/aari/v3/requests/list",
+      "path": "/aari/v2/tasks/humans/submit",
       "pluginSpecifiedTemplates": [
         {
           "value": true
@@ -46,14 +46,14 @@
     },
     "dynamicBindingPathList": [
       {
-        "key": "headers[0].value"
+        "key": "body"
       },
       {
-        "key": "body"
+        "key": "headers[0].value"
       }
     ],
-    "moduleId": "qry_getCPInstances_XT",
-    "name": "qry_getCPInstances_XT",
+    "moduleId": "qry_submitCPTask_XT",
+    "name": "qry_submitCPTask_XT",
     "userSetOnLoad": false
   }
 }

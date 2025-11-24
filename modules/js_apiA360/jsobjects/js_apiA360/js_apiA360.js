@@ -216,7 +216,6 @@ export default {
 		botInputJSON = (botInputJSON === "" || botInputJSON === null || botInputJSON === undefined) ? "" : botInputJSON;
 		poolId = (poolId === "" || poolId === null || poolId === undefined) ? "" : poolId;
 		repositoryPath = (repositoryPath === "" || repositoryPath === null || repositoryPath === undefined) ? "" : repositoryPath;
-		debugger;
 		switch (type) {
 			case "headless":
 				this.setToken(user, apiKey);
