@@ -1,6 +1,6 @@
 {
-  "gitSyncId": "e5bc9607-e5dc-4015-9225-56eed0a21b56_ac73780f-b02a-45cf-817e-80cb8aea0e54",
-  "id": "js_apiCoPilot_js_apiCoPilot.getInstances",
+  "gitSyncId": "53689af5-0356-4ded-9998-80ceb12b786e_eeeca4bb-a03e-4969-bb59-8034cf4ec872",
+  "id": "js_apiCoPilot_js_apiCoPilot.upLoadFile",
   "isPublic": true,
   "pluginId": "js-plugin",
   "pluginType": "JS",
@@ -12,16 +12,16 @@
           "name": "token"
         },
         {
-          "name": "filterOperand"
+          "name": "fileName"
         },
         {
-          "name": "titleFilter"
+          "name": "processId"
         },
         {
-          "name": "statusFilter"
+          "name": "fileBinary"
         },
         {
-          "name": "refFilter"
+          "name": "mime"
         }
       ],
       "paginationType": "NONE",
@@ -40,9 +40,9 @@
         "key": "body"
       }
     ],
-    "fullyQualifiedName": "js_apiCoPilot.getInstances",
+    "fullyQualifiedName": "js_apiCoPilot.upLoadFile",
     "moduleId": "js_apiCoPilot",
-    "name": "getInstances",
+    "name": "upLoadFile",
     "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }

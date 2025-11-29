@@ -8,6 +8,7 @@
     "contextType": "MODULE",
     "inputs": {
       "filterOperand": "and",
+      "refFilter": "",
       "statusFilter": "",
       "titleFilter": "",
       "token": ""
@@ -27,6 +28,13 @@
         "id": "jgoviqzusy",
         "label": "statusFilter",
         "propertyName": "inputs.statusFilter"
+      },
+      "nfcovnwced": {
+        "controlType": "INPUT_TEXT",
+        "defaultValue": "",
+        "id": "nfcovnwced",
+        "label": "refFilter",
+        "propertyName": "inputs.refFilter"
       },
       "skhkbjqikw": {
         "controlType": "INPUT_TEXT",

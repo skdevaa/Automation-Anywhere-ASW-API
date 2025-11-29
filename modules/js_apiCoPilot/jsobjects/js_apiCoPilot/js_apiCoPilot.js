@@ -25,15 +25,20 @@ export default {
 	},
 
 
-	 async getInstances(token,filterOperand,titleFilter,statusFilter) {
-		 let response = await qry_getCPInstances_XT.run({ token: token, filterOperand: filterOperand, statusFilter: statusFilter, titleFilter: titleFilter })
+	 async getInstances(token,filterOperand,titleFilter,statusFilter,refFilter) {
+		 let response = await qry_getCPInstances_XT.run({ token: token, filterOperand: filterOperand, statusFilter: statusFilter, titleFilter: titleFilter ,refFilter: refFilter})
 
 		return response.list
 
 	},
+
 	
 		async getInstanceDetails(token,instanceId) {
-			let response = await qry_getCPInstanceDetails_XT.run({ token: token, instanceId : instanceId })
+			let response = {}
+			if (instanceId.toString().includes('-')) 
+				response = await qry_getCPInstanceDetailsRef_XT.run({ token: token, ref : instanceId })
+			else
+				response = await qry_getCPInstanceDetails_XT.run({ token: token, instanceId : instanceId })
 			return {title:response.title,steps: this.extractTaskDetails(response.steps),status: response.status}
 
 	},
@@ -58,6 +63,14 @@ export default {
 	
 	
 	
+			async upLoadFile(token, fileName,processId,fileBinary,mime) {
+			let response = await qry_prepareUploadFile_XT.run({ token: token, fileName: fileName, processId: processId })
+			const fileReference = response.fileReference.string;
+			const fileAccessToken = response.fileAccessToken;
+			response = await qry_executeUploadFile_XT.run({ token: token, fileAccessToken: fileAccessToken, file: fileBinary})
+			
+      return fileReference
+	},
 	
 	
 	
@@ -120,11 +133,11 @@ export default {
 				 return ""
 			}
 
-		}
+		},
 	
-	
-	
-
-
+	getProcessAttributes(instance) {
+    const keyValObj = Object.fromEntries(Object.values(instance.attrresponse).map(item => [item.key, item.val]));
+		return keyValObj;
+	}
 
 }

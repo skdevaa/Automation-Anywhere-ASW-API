@@ -1,0 +1,32 @@
+{
+  "gitSyncId": "69201c30a723d11c94555073_5f9bdf71-c4af-475a-84a6-dd99d293c270",
+  "id": "js_apiCoPilot_qry_getCPInstanceDetailsRef_XT",
+  "moduleUUID": "63b65cbf-773d-440e-ad46-867f80628d99",
+  "packageUUID": "6deb9cad-b67f-4f79-b7ed-1d334c387541",
+  "type": "QUERY_MODULE",
+  "unpublishedModuleInstance": {
+    "contextType": "MODULE",
+    "inputs": {
+      "ref": "",
+      "token": ""
+    },
+    "moduleId": "js_apiCoPilot",
+    "moduleInputs": {
+      "bpeoftybet": {
+        "controlType": "INPUT_TEXT",
+        "defaultValue": "",
+        "id": "bpeoftybet",
+        "label": "ref",
+        "propertyName": "inputs.ref"
+      },
+      "bvbsrqzufh": {
+        "controlType": "INPUT_TEXT",
+        "defaultValue": "",
+        "id": "bvbsrqzufh",
+        "label": "token",
+        "propertyName": "inputs.token"
+      }
+    },
+    "name": "qry_getCPInstanceDetailsRef_XT"
+  }
+}

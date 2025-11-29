@@ -33,6 +33,13 @@
             "id": "skhkbjqikw",
             "label": "titleFilter",
             "propertyName": "inputs.titleFilter"
+          },
+          {
+            "controlType": "INPUT_TEXT",
+            "defaultValue": "",
+            "id": "nfcovnwced",
+            "label": "refFilter",
+            "propertyName": "inputs.refFilter"
           }
         ],
         "id": "ewqyqkogws",

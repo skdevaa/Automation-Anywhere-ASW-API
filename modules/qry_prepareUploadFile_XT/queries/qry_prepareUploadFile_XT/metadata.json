@@ -1,6 +1,6 @@
 {
-  "gitSyncId": "95f9785d-ea5b-456a-928a-02fbd896385e_01fe288e-746f-43ba-9a6a-ccc1cf43cb6c",
-  "id": "qry_getCPInstances_XT_qry_getCPInstances_XT",
+  "gitSyncId": "065b2035-21c8-4da7-b5a4-37baa2f22e96_b22a7929-78fc-4bfe-95e4-47f108c6e231",
+  "id": "qry_prepareUploadFile_XT_qry_prepareUploadFile_XT",
   "isPublic": true,
   "pluginId": "restapi-plugin",
   "pluginType": "API",
@@ -12,7 +12,7 @@
           "value": "application/json"
         }
       ],
-      "body": "{\n  \"filter\": {\n    \"operator\": \"{{ inputs.filterOperand }}\",\n    \"operands\": {{\n      [\n        inputs.statusFilter\n          ? { operator: \"eq\",        value: inputs.statusFilter,  field: \"status\" }\n          : null,\n\t\t\t\t inputs.refFilter\n          ? { operator: \"eq\",        value: inputs.refFilter,  field: \"ref\" }\n          : null,\n        inputs.titleFilter\n          ? { operator: \"substring\", value: inputs.titleFilter,   field: \"title\" }\n          : null\n      ].filter(Boolean)   // removes nulls\n    }}\n  },\n\t\"sort\": [\n\t\t{\n\t\t\t\"direction\": \"desc\",\n\t\t\t\"field\": \"updatedOn\"\n\t\t}\n\t],\n  \"page\": {\n    \"offset\": 0,\n    \"length\": 100000\n  }\n}\n",
+      "body": "\n{\n    \"filename\": {{inputs.fileName}},\n    \"processInfoId\": {{inputs.processId}}\n}\n",
       "bodyFormData": [],
       "encodeParamsToggle": true,
       "formData": {
@@ -24,10 +24,10 @@
           "value": "{{inputs.token}}"
         }
       ],
-      "httpMethod": "POST",
+      "httpMethod": "PUT",
       "httpVersion": "HTTP11",
       "paginationType": "NONE",
-      "path": "/aari/v3/requests/list",
+      "path": "/aari/v2/files",
       "pluginSpecifiedTemplates": [
         {
           "value": true
@@ -46,14 +46,14 @@
     },
     "dynamicBindingPathList": [
       {
-        "key": "headers[0].value"
+        "key": "body"
       },
       {
-        "key": "body"
+        "key": "headers[0].value"
       }
     ],
-    "moduleId": "qry_getCPInstances_XT",
-    "name": "qry_getCPInstances_XT",
+    "moduleId": "qry_prepareUploadFile_XT",
+    "name": "qry_prepareUploadFile_XT",
     "userSetOnLoad": false
   }
 }

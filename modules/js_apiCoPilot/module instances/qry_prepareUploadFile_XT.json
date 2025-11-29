@@ -1,0 +1,40 @@
+{
+  "gitSyncId": "69201c30a723d11c94555073_cca830d9-cfee-4b24-8a46-aa84c882f491",
+  "id": "js_apiCoPilot_qry_prepareUploadFile_XT",
+  "moduleUUID": "7a711316-2f73-4593-90d1-b1841cf4ac2c",
+  "packageUUID": "6deb9cad-b67f-4f79-b7ed-1d334c387541",
+  "type": "QUERY_MODULE",
+  "unpublishedModuleInstance": {
+    "contextType": "MODULE",
+    "inputs": {
+      "fileName": "",
+      "processId": "",
+      "token": ""
+    },
+    "moduleId": "js_apiCoPilot",
+    "moduleInputs": {
+      "gfykvtxstr": {
+        "controlType": "INPUT_TEXT",
+        "defaultValue": "",
+        "id": "gfykvtxstr",
+        "label": "fileName",
+        "propertyName": "inputs.fileName"
+      },
+      "vduowycltk": {
+        "controlType": "INPUT_TEXT",
+        "defaultValue": "",
+        "id": "vduowycltk",
+        "label": "processId",
+        "propertyName": "inputs.processId"
+      },
+      "xowhnxntmk": {
+        "controlType": "INPUT_TEXT",
+        "defaultValue": "",
+        "id": "xowhnxntmk",
+        "label": "token",
+        "propertyName": "inputs.token"
+      }
+    },
+    "name": "qry_prepareUploadFile_XT"
+  }
+}

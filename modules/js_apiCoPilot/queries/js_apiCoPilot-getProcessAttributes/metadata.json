@@ -1,6 +1,6 @@
 {
-  "gitSyncId": "e5bc9607-e5dc-4015-9225-56eed0a21b56_ac73780f-b02a-45cf-817e-80cb8aea0e54",
-  "id": "js_apiCoPilot_js_apiCoPilot.getInstances",
+  "gitSyncId": "8f7719fb-97a0-4fcd-88f6-a6022c25303d_6250a630-ac29-4f1d-8a62-25b0962b69dd",
+  "id": "js_apiCoPilot_js_apiCoPilot.getProcessAttributes",
   "isPublic": true,
   "pluginId": "js-plugin",
   "pluginType": "JS",
@@ -9,19 +9,7 @@
       "encodeParamsToggle": true,
       "jsArguments": [
         {
-          "name": "token"
-        },
-        {
-          "name": "filterOperand"
-        },
-        {
-          "name": "titleFilter"
-        },
-        {
-          "name": "statusFilter"
-        },
-        {
-          "name": "refFilter"
+          "name": "instance"
         }
       ],
       "paginationType": "NONE",
@@ -40,9 +28,9 @@
         "key": "body"
       }
     ],
-    "fullyQualifiedName": "js_apiCoPilot.getInstances",
+    "fullyQualifiedName": "js_apiCoPilot.getProcessAttributes",
     "moduleId": "js_apiCoPilot",
-    "name": "getInstances",
+    "name": "getProcessAttributes",
     "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }

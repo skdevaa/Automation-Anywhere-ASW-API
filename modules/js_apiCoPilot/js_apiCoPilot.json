@@ -89,6 +89,20 @@
             "id": "zouwrlreip",
             "label": "localDateFormat",
             "propertyName": "inputs.localDateFormat"
+          },
+          {
+            "controlType": "INPUT_TEXT",
+            "defaultValue": "[]",
+            "id": "wbkgbuanlj",
+            "label": "getProcessAttributes",
+            "propertyName": "inputs.getProcessAttributes"
+          },
+          {
+            "controlType": "INPUT_TEXT",
+            "defaultValue": "[]",
+            "id": "ozpxahbklj",
+            "label": "upLoadFile",
+            "propertyName": "inputs.upLoafFile"
           }
         ],
         "id": "uiwcixbxcg",
